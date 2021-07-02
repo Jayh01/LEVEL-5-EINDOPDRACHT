@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Home-Page</title>
+		<meta name="robot" content="index,follow" />
+		<meta charset="UTF-8" />
+		<meta name="discription" content="Deze website gaat over Gym" />
+		<meta name="viewport" content="widht=divice-width, initial-scale=1" />
+		<link rel="stylesheet" content="text/css" href="css/index.css" />
+		<link rel="stylesheet" content="text/css" href="css/contact.css" />
+		<link rel="stylesheet" content="text/css" href="css/about.css" />
+		<link rel="stylesheet" content="text/css" href="css/blog.css" />
+		<link rel="stylesheet" content="text/css" href="css/top-bar-nav.css" />
+	</head>
+	<body class="Body-container">
+		<header>
+			<!--Top-bar navigatie-->
+			<div>
+				<nav class="Top-bar-nav-container">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!--Einde Top-bar navigatie-->
+		</header>
+		<main>
+			<form>
+				<h1>Contact Gegevens</h1>
+				<h3>Voer hier onder uw gegevens in</h3>
+
+				<div class="contact-gegevens-container">
+					<div class="naam-container">
+						<lebe class="contact-lebel">Naam:</lebel>
+						<input type="text" name="Naam:[]" placeholder="Uw naam:" required>
+					</div>
+					<div class="achternaam-container">
+						<label class="contact-lebel">Achternaam:</label>
+						<input
+							type="text"
+							name="Achternaam:[]"
+							placeholder="uw achternaam"
+							required
+						/>
+					</div>
+					<div class="Geboorte-Datum">
+						<lebel class="contact-lebel">Geboorte Datum:</lebel>
+						<input type="date" name="Geboorte Datum:[]" required />
+					</div>
+					<div class="Straatnaam-Num">
+						<label class="contact-lebel">Straatnaam/Num:</label>
+						<input type="text" name="Straatnaam/Num:[]" />
+					</div>
+					<div class="Postcode">
+						<lebel class="contact-lebel">Postcode</lebel>
+						<input
+							type="text"
+							name="Post-Code"
+							required
+							placeholder="Uw Postcode"
+						/>
+					</div>
+					<div class="bericht-klant">
+						<label class="bericht-lebel">Uw bericht</label>
+						<textarea placeholder="Type uw bericht hier"></textarea>
+					</div>
+					<div class="reset-verzenden-container">
+						<input class="contact-reset-knop" type="reset" />
+						<input type="submit" />
+					</div>
+				</div>
+			</form>
+
+		</main>
+		<footer></footer>
+	</body>
+</html>

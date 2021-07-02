@@ -1,0 +1,43 @@
+.Body-container{
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.contact-gegevens-container{
+  border: 1px solid rgb(236, 223, 223);
+  padding: 10px;
+  background-color: #c32020;
+}
+
+.naam-container{
+margin-bottom: 10px
+}
+.achternaam-container{
+    margin-bottom: 10px;
+}
+.Geboorte-Datum{
+    margin-bottom: 10px;
+}
+.Straatnaam-Num{
+    padding: 10px;
+}
+.Postcode{
+    padding: 10px;
+}
+
+.contact-lebel{
+    color: rgb(255, 255, 255);
+}
+.bericht-lebel{
+    color: rgb(255, 255, 255);
+}
+
+.reset-verzenden-container{
+    margin-top: 10px;
+}

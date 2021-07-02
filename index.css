@@ -1,0 +1,294 @@
+
+.Body-container{
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-box-1{
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+/*Hoofd banner (Grote foto)*/
+.hoofd-foto{
+    margin-top: 5px;
+    justify-content: ;
+}
+/*---------------------Einde Hoofd banner (Grote foto)--------------*/
+
+
+/* --------------------4 Foto's Display------------------------*/
+
+.container-box-2{
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #c32020;
+}
+
+.Title-foto{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.container-4-foto{
+    margin-bottom: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-auto-rows: 270px; 
+    grid-gap: 3px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.photo2{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+
+}
+.photo3{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+.photo4{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+/*-----------------------Einde 4 Foto's Display---------------------*/
+
+/* ---------------------Text Next Level -----------------*/
+.next-level-text-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #c32020;
+}
+
+.next-level-text-container p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: #c32020;
+    font-size: 25px;
+}
+
+/* ------------------- Einde Text Next Level -----------------*/
+
+/*Youtube video*/
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: #c32020;
+    font-size: 20px;
+}
+
+/*--------------------------------Display Tablet------------------------*/
+
+@media screen and (min-width: 505px){
+    /*4 Foto's Display*/
+
+.container-box-2{
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:#c32020;
+}
+
+.Title-foto{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.container-4-foto{
+    margin-bottom: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
+    grid-auto-rows: 500px; 
+    grid-gap: 3px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    grid-column: 1/3;
+}
+.photo2{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+
+}
+.photo3{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+.photo4{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    grid-column: 1/-1;
+}
+}
+
+/*--------------------------------Display Desktop------------------------*/
+
+@media screen and (min-width: 723px){
+    /*4 Foto's Display*/
+
+.container-box-2{
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #c32020;
+}
+
+.Title-foto{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.container-4-foto{
+    margin-bottom: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/2;
+}
+.photo2{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+
+}
+.photo3{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+.photo4{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    grid-column: 4/5;
+}
+
+/*Einde 4 Foto's Display*/
+}
+
+/*--------------------------------Grote scherm------------------------*/
+
+@media screen and (min-width: 949px){
+    /*4 Foto's Display*/
+
+.container-box-2{
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #c32020;
+}
+
+.Hoofd-foto img{
+    display: flex;
+    object-fit: contain;
+    object-position: bottom;
+    width: 100%;
+}
+.Title-foto{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.container-4-foto{
+    margin-bottom: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 550px;
+    grid-gap: 3px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.photo2{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+
+}
+.photo3{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+.photo4{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+/*Einde 4 Foto's Display*/
+}
+
